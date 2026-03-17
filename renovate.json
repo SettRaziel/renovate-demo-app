@@ -10,6 +10,12 @@
       "groupName": "dev dependencies"
     },
     {
+      "matchUpdateTypes": ["patch", "minor"],
+      "groupName": "non-major updates",
+      "automerge": true,
+      "automergeType": "pr"
+    },
+    {
       "matchPackageNames": ["axios"],
       "matchUpdateTypes": ["patch"],
       "enabled": true
