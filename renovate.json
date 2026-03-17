@@ -4,7 +4,7 @@
     "config:recommended",
     "mergeConfidence:all-badges"
   ],
-  "schedule": ["every day at 3pm"],
+  "schedule": ["35 15 * * *"],
   "timezone": "Europe/Berlin",
   "prConcurrentLimit": 5,
   "packageRules": [
