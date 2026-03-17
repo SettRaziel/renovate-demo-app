@@ -4,6 +4,9 @@
     "config:recommended",
     "mergeConfidence:all-badges"
   ],
+  "schedule": ["every day at 3pm"],
+  "timezone": "Europe/Berlin",
+  "prConcurrentLimit": 5,
   "packageRules": [
     {
       "matchDepTypes": ["devDependencies"],
